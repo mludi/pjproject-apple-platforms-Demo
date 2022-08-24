@@ -1,3 +1,0 @@
-module Cpjproject [system] {
-    header "shim.h"
-}
