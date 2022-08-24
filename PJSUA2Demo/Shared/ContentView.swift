@@ -13,7 +13,9 @@ final class Model: ObservableObject {
 
     init() {
         pjsua2.createTransport()
-        pjsua2.createAccount()
+        pjsua2.createAccount(onServer: "v7oliep.starface-cloud.com", forUser: "stdsip") {
+            "geheim"
+        }
     }
 }
 
